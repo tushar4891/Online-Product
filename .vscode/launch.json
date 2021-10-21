@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductApplication<product>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.product.product.ProductApplication",
+            "projectName": "product",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserServiceApplication<user-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.user.userservice.UserServiceApplication",
+            "projectName": "user-service",
+            "args": ""
+        }
+    ]
+}
